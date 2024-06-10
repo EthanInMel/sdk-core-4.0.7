@@ -2,7 +2,7 @@ export declare enum ChainId {
     MAINNET = 1,
     GOERLI = 5,
     SEPOLIA = 11155111,
-    SEPOLIAT = 666888,
+    SEPOLIAT = 666888999777,
     OPTIMISM = 10,
     OPTIMISM_GOERLI = 420,
     ARBITRUM_ONE = 42161,

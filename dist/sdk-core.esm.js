@@ -52,7 +52,7 @@ var ChainId;
   ChainId[ChainId["MAINNET"] = 1] = "MAINNET";
   ChainId[ChainId["GOERLI"] = 5] = "GOERLI";
   ChainId[ChainId["SEPOLIA"] = 11155111] = "SEPOLIA";
-  ChainId[ChainId["SEPOLIAT"] = 666888] = "SEPOLIAT";
+  ChainId[ChainId["SEPOLIAT"] = 666888999777] = "SEPOLIAT";
   ChainId[ChainId["OPTIMISM"] = 10] = "OPTIMISM";
   ChainId[ChainId["OPTIMISM_GOERLI"] = 420] = "OPTIMISM_GOERLI";
   ChainId[ChainId["ARBITRUM_ONE"] = 42161] = "ARBITRUM_ONE";
