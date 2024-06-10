@@ -2,7 +2,7 @@ export declare enum ChainId {
     MAINNET = 1,
     GOERLI = 5,
     SEPOLIA = 11155111,
-    SEPOLIATENDERLY = 666888999777,
+    SEPOLIAT = 666888,
     OPTIMISM = 10,
     OPTIMISM_GOERLI = 420,
     ARBITRUM_ONE = 42161,
@@ -18,7 +18,7 @@ export declare enum ChainId {
     BASE_GOERLI = 84531,
     BASE = 8453
 }
-export declare const SUPPORTED_CHAINS: readonly [ChainId.MAINNET, ChainId.OPTIMISM, ChainId.OPTIMISM_GOERLI, ChainId.ARBITRUM_ONE, ChainId.ARBITRUM_GOERLI, ChainId.POLYGON, ChainId.POLYGON_MUMBAI, ChainId.GOERLI, ChainId.SEPOLIA, ChainId.SEPOLIATENDERLY, ChainId.CELO_ALFAJORES, ChainId.CELO, ChainId.BNB, ChainId.AVALANCHE, ChainId.BASE, ChainId.BASE_GOERLI];
+export declare const SUPPORTED_CHAINS: readonly [ChainId.MAINNET, ChainId.OPTIMISM, ChainId.OPTIMISM_GOERLI, ChainId.ARBITRUM_ONE, ChainId.ARBITRUM_GOERLI, ChainId.POLYGON, ChainId.POLYGON_MUMBAI, ChainId.GOERLI, ChainId.SEPOLIA, ChainId.SEPOLIAT, ChainId.CELO_ALFAJORES, ChainId.CELO, ChainId.BNB, ChainId.AVALANCHE, ChainId.BASE, ChainId.BASE_GOERLI];
 export declare type SupportedChainsType = typeof SUPPORTED_CHAINS[number];
 export declare enum NativeCurrencyName {
     ETHER = "ETH",
