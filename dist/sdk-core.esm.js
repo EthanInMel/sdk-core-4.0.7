@@ -99,9 +99,9 @@ function constructSameAddressMap(address, additionalNetworks) {
 
 var UNI_ADDRESSES = /*#__PURE__*/constructSameAddressMap('0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984', [ChainId.OPTIMISM, ChainId.ARBITRUM_ONE, ChainId.POLYGON, ChainId.POLYGON_MUMBAI, ChainId.SEPOLIA]);
 var UNISWAP_NFT_AIRDROP_CLAIM_ADDRESS = '0x8B799381ac40b838BBA4131ffB26197C432AFe78';
-var V2_FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f';
+var V2_FACTORY_ADDRESS = '0xB8a040f25890A80363c1D82f6eF23322aAb46dF1';
 var V2_FACTORY_ADDRESSES = /*#__PURE__*/constructSameAddressMap(V2_FACTORY_ADDRESS);
-var V2_ROUTER_ADDRESS = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D';
+var V2_ROUTER_ADDRESS = '0x1011DBc12848Af6fEd949a4C9bCb5660E6A17d7a';
 var V2_ROUTER_ADDRESSES = /*#__PURE__*/constructSameAddressMap(V2_ROUTER_ADDRESS); // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
 
 var DEFAULT_ADDRESSES = {
