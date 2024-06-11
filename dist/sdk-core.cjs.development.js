@@ -87,7 +87,7 @@ var SUPPORTED_CHAINS = [exports.ChainId.MAINNET, exports.ChainId.OPTIMISM, expor
 })(exports.NativeCurrencyName || (exports.NativeCurrencyName = {}));
 
 var _CHAIN_TO_ADDRESSES_M, _GOVERNANCE_ALPHA_V1_, _GOVERNANCE_BRAVO_ADD, _MERKLE_DISTRIBUTOR_A, _ARGENT_WALLET_DETECT, _SOCKS_CONTROLLER_ADD;
-var DEFAULT_NETWORKS = [exports.ChainId.MAINNET, exports.ChainId.GOERLI];
+var DEFAULT_NETWORKS = [exports.ChainId.MAINNET, exports.ChainId.GOERLI, exports.ChainId.SEPOLIAT];
 
 function constructSameAddressMap(address, additionalNetworks) {
   if (additionalNetworks === void 0) {

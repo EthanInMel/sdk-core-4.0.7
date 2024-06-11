@@ -84,7 +84,7 @@ var NativeCurrencyName;
 })(NativeCurrencyName || (NativeCurrencyName = {}));
 
 var _CHAIN_TO_ADDRESSES_M, _GOVERNANCE_ALPHA_V1_, _GOVERNANCE_BRAVO_ADD, _MERKLE_DISTRIBUTOR_A, _ARGENT_WALLET_DETECT, _SOCKS_CONTROLLER_ADD;
-var DEFAULT_NETWORKS = [ChainId.MAINNET, ChainId.GOERLI];
+var DEFAULT_NETWORKS = [ChainId.MAINNET, ChainId.GOERLI, ChainId.SEPOLIAT];
 
 function constructSameAddressMap(address, additionalNetworks) {
   if (additionalNetworks === void 0) {
